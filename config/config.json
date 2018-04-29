@@ -1,0 +1,12 @@
+{
+    "test": {
+        "REDIS_HOST": "127.0.0.1",
+        "REDIS_PORT": 6379,
+        "BASE_URL": "http://svc.metrotransit.org/"
+    },
+    "development": {
+        "REDIS_HOST": "127.0.0.1",
+        "REDIS_PORT": 6379,
+        "BASE_URL": "http://svc.metrotransit.org/"
+    }
+}

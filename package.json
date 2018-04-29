@@ -1,0 +1,24 @@
+{
+  "name": "metro-transit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "export NODE_ENV=test && mocha \"./{,!(node_modules)/**/}/*.test.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "moment": "^2.22.1",
+    "moment-timezone": "^0.5.16",
+    "redis": "^2.8.0"
+  },
+  "devDependencies": {
+    "expect": "^22.4.3",
+    "mocha": "^5.1.1",
+    "rewire": "^4.0.1"
+  }
+}
